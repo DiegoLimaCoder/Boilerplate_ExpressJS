@@ -1,11 +1,19 @@
 {
+	"name": "boilerplate-expressjs-template",
+	"version": "1.0.0",
+	"description": "Gerar um projeto Express.js com TypeScript, testes e validação de ambiente.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DiegoLimaCoder/Boilerplate_ExpressJS"
+	},
+	"keywords": ["express", "boilerplate", "typescript","test", "cli"],
+	"author": "Diego Lima",
 	"scripts": {
 		"dev": "ts-node-dev -r tsconfig-paths/register --respawn src/server.ts",
 		"build": "tsc",
 		"test:watch": "vitest",
 		"test": "vitest run",
 		"test:cov": "vitest run --coverage"
-		
 	},
 	"dependencies": {
 		"dotenv": "^16.4.7",

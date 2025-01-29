@@ -1,7 +1,6 @@
 import request from "supertest";
-import { app } from "@/app";
-import { describe } from "vitest";
-import { expect, it } from "vitest";
+import { app } from "../src/app";
+
 
 describe("Basic Endpoint Test", () => {
   it("should respond with status 200 for the root route", async () => {

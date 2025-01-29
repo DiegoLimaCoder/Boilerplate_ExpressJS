@@ -6,6 +6,7 @@ export default defineConfig({
   test: {
     include: ['**/*.e2e-spec.ts','**/*.unit.spec.ts','**/*.integration.spec.ts'],
     globals: true,
+    environment: 'node',
     alias: {
       "@": "../src", 
     },

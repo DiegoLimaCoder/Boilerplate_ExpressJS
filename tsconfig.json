@@ -3,7 +3,8 @@
     "lib": [
       "ES2023"
     ],
-    "baseUrl": "./",
+    "types": ["vitest/globals"],
+    "baseUrl": ".",
     "target": "ES2023",
     "module": "Node16",
     "esModuleInterop": true,
@@ -12,8 +13,8 @@
     "skipLibCheck": true,
     "moduleResolution": "node16",
     "paths": {
-      "@/*": ["src/*"],
+      "@/*": ["./src/*"],
     },
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts","src", "test"]
 }

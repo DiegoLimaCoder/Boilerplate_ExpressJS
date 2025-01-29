@@ -1,6 +1,6 @@
 import request from "supertest";
 import { app } from "@/app";
-import { describe } from "node:test";
+import { describe } from "vitest";
 import { expect, it } from "vitest";
 
 describe("Basic Endpoint Test", () => {

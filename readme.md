@@ -94,11 +94,6 @@ Aqui estão os scripts principais definidos no `package.json`:
     npm run test:cov
     ```
 
-- **`test:e2e`**: Executa testes de integração com configuração específica para testes E2E.
-
-    ```bash
-    npm run test:e2e
-    ```
 
 ## Testes
 
